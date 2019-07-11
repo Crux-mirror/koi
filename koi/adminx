@@ -1,0 +1,17 @@
+# adminx.py
+# Action 插件功能
+import xadmin
+
+
+# 基础设置
+class BaseSetting(object):
+    enable_themes = True  # 使用主题
+    use_bootswatch = True
+
+
+# 全局设置
+class GlobalSettings(object):
+    site_title = '日语学习后台管理系统'  # 标题
+    site_footer = 'Powered by: crux'  # 页尾
+    site_url = '/'
+    menu_style = 'accordion'  # 设置左侧菜单  折叠样式
